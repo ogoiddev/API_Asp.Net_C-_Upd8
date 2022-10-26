@@ -13,4 +13,11 @@ public class ClientModel
   public string Cidade { get; set; }
   public string Endereco { get; set; }
 
+  public ClientModel(string nome, string estado, string cidade, string endereco)
+  {
+    Nome = nome;
+    Estado = estado;
+    Cidade = cidade;
+    Endereco = endereco;
+  }
 }
