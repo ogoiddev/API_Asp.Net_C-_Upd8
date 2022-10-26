@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+  <h3>Consulta Cliente</h3>
+  <form action="">
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">CPF:</label>
+      <input type="text" max-width="200px" class="form-control input-form" id="exampleFormControlInput1" placeholder="123.321.123-64">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nome:</label>
+      <input type="text" class="form-control input-form" id="exampleFormControlInput1" placeholder="Mark Luter">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Data de Nascimento:</label>
+      <input type="date" class="form-control input-form" id="exampleFormControlInput1" placeholder="24/10/1985">
+    </div>
+
+    <label>sexo:
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          Masculino
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          Feminino
+        </label>
+      </div>
+    </label>
+
+    <label for="">Estado
+    <select class="form-select select-form" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    </label>
+
+    <label for="">Cidade
+    <select class="form-select select-form" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    </label>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Pesquisar</button>
+      <button type="button" class="btn btn-outline-dark">Limpar</button>
+    </div>
+
+  </form>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Item</th>
+      <th scope="col">Opcoes</th>
+      <th scope="col">Cliente</th>
+      <th scope="col">CPF</th>
+      <th scope="col">Data de Nascimento</th>
+      <th scope="col">Estado</th>
+      <th scope="col">Cidade</th>
+      <th scope="col">Sexo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a role='button' asp-area="" asp-controller="EditRegister" asp-action="Index" class="btn btn-primary">Editar</a>
+          <a role='button' class="btn btn-danger">Excluir</a>
+        </div>
+      </td>
+      <td>Mark Loter</td>
+      <td>123.321.299-64</td>
+      <td>24/10/85</td>
+      <td>PR</td>
+      <td>Ubirata</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a role='button' asp-area="" asp-controller="EditRegister" asp-action="Index" class="btn btn-primary">Editar</a>
+          <a role='button' class="btn btn-danger">Excluir</a>
+        </div>
+      </td>
+      <td>Mark Loter</td>
+      <td>123.321.299-64</td>
+      <td>24/10/85</td>
+      <td>PR</td>
+      <td>Ubirata</td>
+      <td>M</td>
+    </tr>
+  </tbody>
+</table>
