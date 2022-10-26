@@ -20,4 +20,4 @@ $ dotnet restore
 $ dotnet run
 ```
 
-![ScreenShot]("./Client_manager/public/Screenshot 2022-10-26 142701.jpg")
+![ScreenShot](https://raw.githubusercontent.com/ogoiddev/API_Asp.Net_C-_Upd8/main/Client_manager/public/Screenshot%202022-10-26%20142701.jpg)
