@@ -7,6 +7,7 @@
 * Asp.net
 * Entity Framework
 * Sql Server
+* Bootstrap
 
 
 ### Run project in Local:
