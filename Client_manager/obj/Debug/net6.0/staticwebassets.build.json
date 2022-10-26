@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vcmxo7v7/354XsiQyfBtpldMqZC1YwkeGw4Rg+eEmQ8=",
+  "Hash": "yck36yVytE7/VIAcyy7pfjMq+SuNY9EtNKAZYxWjces=",
   "Source": "Client_manager",
   "BasePath": "_content/Client_manager",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\ogoid\\OneDrive\\Documents\\ogoiddev_git_area\\API_Asp.Net_C-_Upd8\\Client_manager\\wwwroot\\images\\upd8.png",
+      "SourceId": "Client_manager",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ogoid\\OneDrive\\Documents\\ogoiddev_git_area\\API_Asp.Net_C-_Upd8\\Client_manager\\wwwroot\\",
+      "BasePath": "_content/Client_manager",
+      "RelativePath": "images/upd8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\upd8.png"
     },
     {
       "Identity": "C:\\Users\\ogoid\\OneDrive\\Documents\\ogoiddev_git_area\\API_Asp.Net_C-_Upd8\\Client_manager\\wwwroot\\js\\site.js",
