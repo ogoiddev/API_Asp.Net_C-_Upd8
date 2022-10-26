@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using client_register_api_asp.Models;
+using Client_manager.Models;
 
-namespace client_register_api_asp.Controllers;
+namespace Client_manager.Controllers;
 
 public class RegisterController : Controller
 {
